@@ -1,7 +1,4 @@
 # SOC-Home-Lab
-SOC Home lab using Splunk for log monitoring and incident detection
-# SOC Home Lab
-
 This project demonstrates a Security Operations Center (SOC) home lab built using Splunk to monitor and investigate security events.
 
 ## Lab Environment
