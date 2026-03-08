@@ -21,7 +21,25 @@ Machines used:
 ## Simulated Attacks
 
 1. Brute force login attack
+Framework: MITRE ATT&CK
+Detection Source: Windows Security Logs (Event ID 4625)
+Tool Used: Splunk SIEM
+
 2. Malware detection using EICAR test file
+Incident Name: Brute Force Login Attack
+
+MITRE ATT&CK Technique:
+T1110 – Brute Force
+Description:
+Multiple failed login attempts were detected targeting a Windows host from a Kali Linux attacker machine.
+Detection Method:
+Splunk SIEM query monitoring Windows Security Event Logs.
+Relevant Logs:
+Event ID 4625 – Failed Logon Attempt
+Indicators of Compromise:
+Repeated authentication failures from a single IP address.
+Mitigation:
+Account lockout policies recommended after 5 failed login attempts.
 
 ## Detection
 
