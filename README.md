@@ -5,14 +5,6 @@ This project demonstrates a Security Operations Center (SOC) home lab built usin
 
 Virtual machines were created using VirtualBox.
 
-Kali Linux (Attacker)
-        |
-        |
-Windows 10 (Target)
-        |
-        |
-Ubuntu Server + Splunk (SIEM)
-
 Machines used:
 
 - Kali Linux (attacker)
